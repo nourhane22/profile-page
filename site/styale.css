@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #3C3D37;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter" , sans-serif ;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 5%;
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    background-color: #1E201E; 
+    border-radius: 5%;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+ .img{
+  scale: 0.7;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+ } 
+
+ .profile-name{
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-top: 10px;
+ 
+}
+
+ .button{
+    display: block;             
+    margin: 2px auto;            
+    background-color: #3C3D37;    
+    color: whitesmoke;    
+    text-decoration: none;          
+    padding: 20px 30px;           
+    border: none;                
+    border-radius: 10px; 
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;         
+    font-size: 14px;             
+    cursor: pointer;              
+    width: 100%;                 
+    text-align: center;   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);        
+}
+
+ .button:hover {
+    background-color: #3D3B40;  
+    transition: background-color 0.3s ease;
+}
+.button i {
+    margin-right: 0px;  
+         
+}
+
+
+.links{
+    padding: 10%;
+}
+
+
